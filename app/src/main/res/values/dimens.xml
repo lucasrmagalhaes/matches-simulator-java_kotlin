@@ -2,4 +2,5 @@
 <resources>
     <dimen name="margin_default">16dp</dimen>
     <dimen name="team_image_size">120dp</dimen>
+    <dimen name="app_bar_height">180dp</dimen>
 </resources>
