@@ -56,9 +56,15 @@ Informa a URL do Projeto - GitHub, clona direto no Android Studio.
 ##### Material Design
 É um sistema de design (que engloba UI e UX) criado pelo Google para nos ajudar a criar experiências digitais de alta qualidade para multiplas plataformas.
 
-[Sistema de Cores](https://material.io/design/color/the-color-system.html#tools-for-picking-colors)
+[Sistema de Cores](https://material.io/design/color/the-color-system.html#tools-for-picking-colors) <br>
 [Color Tool](https://material.io/resources/color/#!/?view.left=0&view.right=0)
 
+##### Prototipação do App
+Primeira tela: Listagem/Simulação de Partidas <br>
+Segunda tela: Detalhes da Partida
 
+##### Atalhos
+Replace: Ctrl + R <br>
+Abrir Opções: Alt + Enter
 
 <hr>
