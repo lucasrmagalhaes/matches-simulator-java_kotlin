@@ -67,4 +67,7 @@ Segunda tela: Detalhes da Partida
 Replace: Ctrl + R <br>
 Abrir Opções: Alt + Enter
 
+#####
+[](https://material.io/components/app-bars-top/android#regular-top-app-bar)
+
 <hr>
