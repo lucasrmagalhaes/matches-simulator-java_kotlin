@@ -141,4 +141,11 @@ implementation 'com.github.bumptech.glide:glide:4.11.0'
 annotationProcessor 'com.github.bumptech.glide:compiler:4.11.0'
 ```
 
+##### Permissão de acesso a internet
+```
+<uses-permission android:name="android.permission.INTERNET"/>
+```
+
+[Listas dinâmicas com o RecyclerView](https://developer.android.com/guide/topics/ui/layout/recyclerview?hl=pt-br)
+
 <hr>
