@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="app_name">Simulador</string>
+    <string name="app_name">Simulador de Partidas</string>
 
     <string name="cd_simulate">Botão de simulação de partidas.</string>
     <string name="cd_home_team">Imagem do time mandante</string>
