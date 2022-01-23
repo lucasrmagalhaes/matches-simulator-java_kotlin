@@ -1,10 +1,13 @@
 package me.dio.simulator.ui.adapter;
 
+import android.content.Context;
 import android.view.LayoutInflater;
 import android.view.ViewGroup;
 
 import androidx.annotation.NonNull;
 import androidx.recyclerview.widget.RecyclerView;
+
+import com.bumptech.glide.Glide;
 
 import java.util.List;
 
@@ -29,10 +32,13 @@ public class MatchesAdapter extends RecyclerView.Adapter<MatchesAdapter.ViewHold
 
     @Override
     public void onBindViewHolder(@NonNull ViewHolder holder, int position) {
+        Context context = holder.itemView.getContext();
         Match match = matches.get(position);
 
         // Adapta os dados da partida (recuperada da API) para o nosso layout.
+        Glide.with(context).load(match.getHomeTeam().getImage()).circleCrop().into(holder.binding.ivHomeTeam);
         holder.binding.tvHomeTeamName.setText(match.getHomeTeam().getName());
+        Glide.with(context).load(match.getAwayTeam().getImage()).circleCrop().into(holder.binding.ivAwayTeam);
         holder.binding.tvAwayTeamName.setText(match.getAwayTeam().getName());
     }
 
