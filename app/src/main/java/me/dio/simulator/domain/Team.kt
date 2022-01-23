@@ -8,5 +8,6 @@ data class Team(
     @SerializedName("estrelas")
     val stars: Int,
     @SerializedName("imagem")
-    val image: String
+    val image: String,
+    var score: Int?
 )
