@@ -177,5 +177,12 @@ Passos para adicionar o Firebase em seu App usando o Console do Firebase (recome
 * [Adicionar SDKs do Firebase ao seu App](https://firebase.google.com/docs/android/setup?hl=pt-br#add-sdks)
 
 ##### Crashlytics
-O Firebase Crashlytics é uma ferramenta de relatório de falhas leve e em tempo real que ajuda a monitorar, priorizar e corrigir problemas de estabilidade que comprometem a qualidade do seu aplicativo. <br>
+O Firebase Crashlytics é uma ferramenta de relatório de falhas leve e em tempo real que ajuda a monitorar, priorizar e corrigir problemas de estabilidade que comprometem a qualidade do seu aplicativo. <br><br>
 O Crashlytics economiza tempo na solução de problemas com o agrupamento inteligente das falhas e a exibição das circunstâncias que levam a elas.
+
+##### Configurando o Crashlytics
+Passos para adicionar o Firebase Crashlytics:
+* [Ativar o Crashlytics no Console do Firebase](https://firebase.google.com/docs/crashlytics/get-started?hl=pt-br&platform=android#enable-in-console)
+* [Adicionar o plug-in do Firebase Crashlytics ao seu App](https://firebase.google.com/docs/crashlytics/get-started?hl=pt-br&platform=android#add-plugin)
+* [Adicionar o SDK do Firebase Crashlytics ao seu App](https://firebase.google.com/docs/crashlytics/get-started?hl=pt-br&platform=android#add-sdk)
+* [Forçar uma falha de teste para concluir a configuração](https://firebase.google.com/docs/crashlytics/get-started?hl=pt-br&platform=android#force-test-crash)
