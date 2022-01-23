@@ -119,7 +119,7 @@ Nesse sentido, para que não tenhamos que construir uma API do zero, vamos prove
 
 ##### Retrofit
 Cliente HTTP para Android e Java, o qual abstrai incrivelmente a complexidade no consumo de APIs. Além disso, possui uma série de conversores JSON, que facilitam a (de)serialização dos dados: <br>
-[Retrofit (HTTP Client):](https://square.github.io/retrofit)
+[Retrofit (HTTP Client)](https://square.github.io/retrofit)
 
 ```
 implementation 'com.squareup.retrofit2:retrofit:2.9.0'
