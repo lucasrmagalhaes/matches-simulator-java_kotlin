@@ -52,9 +52,25 @@ public class MainActivity extends AppCompatActivity {
     }
 
     private void setupMatchesList() {
-
         binding.rvMatches.setHasFixedSize(true);
         binding.rvMatches.setLayoutManager(new LinearLayoutManager(this));
+        findMatchesFromAPI();
+    }
+
+    private void setupMatchesRefresh() {
+        binding.srlMatches.setOnRefreshListener(this::findMatchesFromAPI);
+    }
+
+    private void setupFloatingActionButton() {
+        // TODO Criar evento de click e simulação de partidas.
+    }
+
+    private void showErrorMessage() {
+        Snackbar.make(binding.fabSimulate, R.string.error_api, Snackbar.LENGTH_LONG).show();
+    }
+
+    private void findMatchesFromAPI() {
+        binding.srlMatches.setRefreshing(true);
 
         matchesAPI.getMatches().enqueue(new Callback<List<Match>>() {
             @Override
@@ -66,24 +82,15 @@ public class MainActivity extends AppCompatActivity {
                 } else {
                     showErrorMessage();
                 }
+
+                binding.srlMatches.setRefreshing(false);
             }
 
             @Override
             public void onFailure(Call<List<Match>> call, Throwable t) {
                 showErrorMessage();
+                binding.srlMatches.setRefreshing(false);
             }
         });
-    }
-
-    private void setupMatchesRefresh() {
-        // TODO Atualizar as partidas na ação de swipe.
-    }
-
-    private void setupFloatingActionButton() {
-        // TODO Criar evento de click e simulação de partidas.
-    }
-
-    private void showErrorMessage() {
-        Snackbar.make(binding.fabSimulate, R.string.error_api, Snackbar.LENGTH_LONG).show();
     }
 }
