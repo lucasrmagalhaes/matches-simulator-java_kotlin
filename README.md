@@ -67,7 +67,54 @@ Segunda tela: Detalhes da Partida
 Replace: Ctrl + R <br>
 Abrir Opções: Alt + Enter
 
-#####
-[](https://material.io/components/app-bars-top/android#regular-top-app-bar)
+##### In res/values/type.xml:
+[Style](https://material.io/components/app-bars-top/android#regular-top-app-bar)
+
+<hr>
+
+#### Java e Kotlin
+
+##### Objetivo Geral
+Desenvolva os eventos, integrações e interações de usuário em um App Android. Para isso, vamos explorar conceitos essenciais, como: APIs, Orientação a Objetos e Padrões de Projetos; tudo na prática usando Java e Kotlin! <br>
+Nesse sentido, bibliotecas consolidadas como Glide e Retrofit serão utilizadas com o objetivo de aumentar ainda mais nossa produtividade e qualidade de código.
+
+##### Percurso
+- Criando uma "API" e Modelando seu Domínio
+- Conhecendo as Bibliotecas Retrofit e Glide
+- Parcelable e Simulação de Partidas 🎲
+
+##### Domínio/Problema
+Com base nos protótipos, conseguimos ter uma boa ideia do nosso domínio de aplicação. Nesse contexto, vamos abstrair as entidades relevantes para o App, por exemplo: <br>
+- Toda Partida é realizada em um Local;
+- Uma Partida possui dois Times (mandante e visitante);
+- Os Times têm um nível de força (estrelas)…
+
+##### “API” no GitHub Pages 🤨
+Uma Application Programming Interface (API), basicamente, se propõe a expor recursos de um domínio de aplicação. Seu principal objetivo é definir uma interface para integrações concisas e eficientes. <br><br>
+Nesse sentido, para que não tenhamos que construir uma API do zero, vamos prover nossos recursos (partidas) via GET por meio do recurso GitHub Pages.
+
+```json
+[
+  { 
+    "descricao": "Eliminatórias Copa 2022",
+    "local": {
+      "nome": "Maracanã",
+      "imagem": "TODO"
+    },
+    "mandante": {
+      "nome": "Brasil",
+      "estrelas": 5,
+      "imagem": "https://www.bandeirasnacionais.com/data/flags/normal/br.png"
+    },
+    "visitante": {
+      "nome": "Argentina",
+      "estrelas": 5,
+      "imagem": "https://www.bandeirasnacionais.com/data/flags/normal/ar.png"
+    }
+  }
+]
+```
+
+[Matches Simulator API](https://github.com/lucasrmagalhaes/matches_simulator-api)
 
 <hr>
