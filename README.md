@@ -156,6 +156,28 @@ plugins {
 }
 ```
 
+<hr>
 
+#### Firebase
+
+##### Objetivo Geral
+Conheça algumas das possibilidades oferecidas pelo Firebase. Nesse contexto, vamos explorar alguns recursos interessantes dessa plataforma, como o Analytics, Crashlytics, entre outros. Com isso, nosso App estará muito mais preparado para uma publicação em produção (Google Play), pois eventuais crashes e insights relacionados ao seu uso poderão ser monitorados proativamente.
+
+##### Introdução ao Firebase
+Fornece as ferramentas para desenvolver aplicativos de alta qualidade, ampliar a base de usuários e lucrar mais. Para isso, o Firebase oferece uma poderosa suite de soluções, abstraindo a complexidade em diferentes contextos:
+- Construção
+- Implantação e Monitoramento
+- Engajamento
+
+##### Configurando o Firebase
+Passos para adicionar o Firebase em seu App usando o Console do Firebase (recomendado):
+* [Criar um projeto do Firebase](https://firebase.google.com/docs/android/setup?hl=pt-br#create-firebase-project)
+* [Registrar seu app com o Firebase](https://firebase.google.com/docs/android/setup?hl=pt-br#register-app)
+* [Adicionar um arquivo de configuração do Firebase](https://firebase.google.com/docs/android/setup?hl=pt-br#add-config-file)
+* [Adicionar SDKs do Firebase ao seu App](https://firebase.google.com/docs/android/setup?hl=pt-br#add-sdks)
+
+##### Crashlytics
+O Firebase Crashlytics é uma ferramenta de relatório de falhas leve e em tempo real que ajuda a monitorar, priorizar e corrigir problemas de estabilidade que comprometem a qualidade do seu aplicativo. <br>
+O Crashlytics economiza tempo na solução de problemas com o agrupamento inteligente das falhas e a exibição das circunstâncias que levam a elas.
 
 <hr>
