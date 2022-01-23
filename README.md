@@ -179,5 +179,3 @@ Passos para adicionar o Firebase em seu App usando o Console do Firebase (recome
 ##### Crashlytics
 O Firebase Crashlytics é uma ferramenta de relatório de falhas leve e em tempo real que ajuda a monitorar, priorizar e corrigir problemas de estabilidade que comprometem a qualidade do seu aplicativo. <br>
 O Crashlytics economiza tempo na solução de problemas com o agrupamento inteligente das falhas e a exibição das circunstâncias que levam a elas.
-
-<hr>
