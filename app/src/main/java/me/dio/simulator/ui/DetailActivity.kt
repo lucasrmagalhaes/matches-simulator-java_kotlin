@@ -6,6 +6,10 @@ import me.dio.simulator.databinding.ActivityDetailBinding
 
 class DetailActivity : AppCompatActivity() {
 
+    object Extras {
+        const val MATCH = "EXTRA_MATCH"
+    }
+
     private lateinit var binding: ActivityDetailBinding
 
     override fun onCreate(savedInstanceState: Bundle?) {
