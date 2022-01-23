@@ -117,4 +117,28 @@ Nesse sentido, para que não tenhamos que construir uma API do zero, vamos prove
 
 [Matches Simulator API](https://github.com/lucasrmagalhaes/matches_simulator-api)
 
+##### Retrofit
+Cliente HTTP para Android e Java, o qual abstrai incrivelmente a complexidade no consumo de APIs. Além disso, possui uma série de conversores JSON, que facilitam a (de)serialização dos dados: <br>
+[Retrofit (HTTP Client):](https://square.github.io/retrofit)
+
+```
+implementation 'com.squareup.retrofit2:retrofit:2.9.0'
+```
+
+```
+implementation 'com.squareup.retrofit2:converter-gson:2.9.0'
+```
+
+##### Glide
+Gerenciador de mídia rápido e eficiente, abstraindo o processo de carregamento de imagens em Android, gerenciando desde a decodificação e transformação até o controle de cache das mesmas: <br>
+[Glide (Image Loading)](https://github.com/bumptech/glide)
+
+```
+implementation 'com.github.bumptech.glide:glide:4.11.0'
+```
+
+```
+annotationProcessor 'com.github.bumptech.glide:compiler:4.11.0'
+```
+
 <hr>
