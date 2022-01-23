@@ -30,6 +30,8 @@ class DetailActivity : AppCompatActivity() {
         intent?.extras?.getParcelable<Match>(Extras.MATCH)?.let {
             Glide.with(this).load(it.place.image).into(binding.ivPlace)
             supportActionBar?.title = it.place.name
+
+            binding.tvDescription.text = it.description
         }
     }
 }
