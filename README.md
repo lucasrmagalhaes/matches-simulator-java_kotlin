@@ -148,4 +148,15 @@ annotationProcessor 'com.github.bumptech.glide:compiler:4.11.0'
 
 [Listas dinâmicas com o RecyclerView](https://developer.android.com/guide/topics/ui/layout/recyclerview?hl=pt-br)
 
+##### Parcelable
+Parcelable é a estratégia de (de)serialização padrão em Apps Android, ou seja, é a implementação utilizada para troca de mensagens entre as telas de um App. Nesse contexto, o Kotlin Parcelize é uma alternativa muito simples e efetiva:
+```
+plugins {
+   …
+   id 'kotlin-parcelize'
+}
+```
+
+
+
 <hr>
