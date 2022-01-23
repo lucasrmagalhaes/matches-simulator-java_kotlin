@@ -1,4 +1,15 @@
-### Sportheca Mobile DEV Week
+# Sportheca Mobile DEV Week - Simulador de Partidas 🎲
+
+<p align="center">
+  <a href="https://github.com/lucasrmagalhaes/matches-simulator-java_kotlin/blob/main/app.gif?raw=true">
+    <img
+      src="https://github.com/lucasrmagalhaes/matches-simulator-java_kotlin/blob/main/app.gif?raw=true"
+      alt="Simulador de Partidas" 
+    />
+  </a>
+  <br />
+  <i>Projeto desenvolvido no bootcamp Sportheca da DIO.</i>
+</p>
 
 <hr>
 
